@@ -1,27 +1,55 @@
-# AngularTodos
+# Angular Todos
+A todos app built using angular, firebase and angular material
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+## Version History
+[Versions](./VERSION.md)
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### Prerequisite
+* Node JS and NPM installed
+* Angular-CLI installed
+* Firebase account
 
-## Code scaffolding
+#### Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Clone this repository by running the following command
+```
+https://github.com/shashutech/angular-todos.git
+```
 
-## Build
+* Open folder angular-todos 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Install all the dependencies by running the following command
+```
+npm install
+```
 
-## Running unit tests
+* Create a project on firebase and copy the configration in `src/environments/enviroment.ts` file
+```
+firebaseConfig: {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+}
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Start the development server by running the following command
+```
+ng serve
+```
 
-## Running end-to-end tests
+* Open the following url in your browser to view the project
+```
+http://localhost:4200/
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Social Media Links
+[Twitter](https://twitter.com/shashutech)
+[Instagram](https://www.instagram.com/dev_genz/)
+[Dribbble](https://dribbble.com/shashutech)
+[Portfilio](https://genzdev.com)
